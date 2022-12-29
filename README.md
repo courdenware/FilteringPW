@@ -1,6 +1,6 @@
 #  FilteringPW Explorer
 
-GUI tool to filter objects.
+GUI tool to filter properties and objects.
 
 ![](https://github.com/m36d/FilteringPW/blob/main/exp1.png)
 
