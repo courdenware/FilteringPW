@@ -1,6 +1,6 @@
-# WFP Explorer
+#  FilteringPW Explorer
 
-GUI tool to view Windows Filtering Platform objects (WIP).
+GUI tool to filter objects.
 
 ![](https://github.com/m36d/FilteringPW/blob/main/exp1.png)
 
