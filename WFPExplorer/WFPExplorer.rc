@@ -1,0 +1,704 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        POPUP "&New"
+        BEGIN
+            MENUITEM "&Filter...",                  ID_NEW_FILTER
+            MENUITEM "&Simple Filter...",           ID_NEW_SIMPLEFILTER
+            MENUITEM "&Provider...",                ID_NEW_PROVIDER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save...\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Delete\tDel",                ID_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Properties...\tAlt+Enter",    ID_EDIT_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM "Find &Next\tF3",              ID_EDIT_FINDNEXT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Hierarchy",                  ID_VIEW_HIERARCHY
+        MENUITEM SEPARATOR
+        MENUITEM "&Sessions",                   ID_VIEW_SESSIONS
+        MENUITEM "&Providers",                  ID_VIEW_PROVIDERS
+        MENUITEM "&Filters",                    ID_VIEW_FILTERS
+        MENUITEM "&Layers",                     ID_VIEW_LAYERS
+        MENUITEM "Subla&yers",                  ID_VIEW_SUBLAYERS
+        MENUITEM "&Callouts",                   ID_VIEW_CALLOUTS
+        MENUITEM "Provider Conte&xts",          ID_VIEW_PROVIDERCONTEXTS
+        MENUITEM "&Network Events",             ID_VIEW_NETWORKEVENTS
+        MENUITEM "Statistics",                  ID_VIEW_STATISTICS
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh",                    ID_VIEW_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Append Network Events",      ID_OPTIONS_APPENDNETWORKEVENTS
+        MENUITEM "&Resolve Network Addresses",  ID_OPTIONS_RESOLVENETWORKADDRESSES
+        MENUITEM SEPARATOR
+        MENUITEM "&Always On Top",              ID_OPTIONS_ALWAYSONTOP
+        MENUITEM "&Dark Mode",                  ID_OPTIONS_DARKMODE
+        MENUITEM "&Font...",                    ID_OPTIONS_FONT
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Close\tCtrl+F4",             ID_WINDOW_CLOSE
+        MENUITEM "Close &All",                  ID_WINDOW_CLOSE_ALL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About WFP Explorer...",      ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT MENU
+BEGIN
+    POPUP "&Filter"
+    BEGIN
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Delete\tDel",                ID_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Properties...\tAlt+Enter",    ID_EDIT_PROPERTIES
+    END
+    POPUP "layer"
+    BEGIN
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "Properties...\tAlt+Enter",    ID_EDIT_PROPERTIES
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WFPExplorer.ico"
+
+IDI_CALLOUT             ICON                    "res\\callback.ico"
+
+IDI_COPY                ICON                    "res\\Copy.ico"
+
+IDI_CUT                 ICON                    "res\\Cut.ico"
+
+IDI_DELETE              ICON                    "res\\Delete.ico"
+
+IDI_FILTER              ICON                    "res\\Filter.ico"
+
+IDI_SESSION             ICON                    "res\\Session.ico"
+
+IDI_ENGINE              ICON                    "res\\engine.ico"
+
+IDI_LAYERS              ICON                    "res\\layers.ico"
+
+IDI_PASTE               ICON                    "res\\Paste.ico"
+
+IDI_PIN                 ICON                    "res\\pin.ico"
+
+IDI_REFRESH             ICON                    "res\\Refresh.ico"
+
+IDI_SUBLAYER            ICON                    "res\\sublayers.ico"
+
+IDI_PROVIDER            ICON                    "res\\provider.ico"
+
+IDI_FILTER_DISABLED     ICON                    "res\\filter-disabled.ico"
+
+IDI_PROVIDER_PERSISTENT ICON                    "res\\provider-persistent.ico"
+
+IDI_SESSION_DYNAMIC     ICON                    "res\\Session-synamic.ico"
+
+IDI_CONTEXT             ICON                    "res\\context.ico"
+
+IDI_FILTER_REFRESH      ICON                    "res\\FilteringRefresh.ico"
+
+IDI_FILTER_BLOCK        ICON                    "res\\Filteringrestricted.ico"
+
+IDI_FILTER_PERMIT       ICON                    "res\\FilteringRightArrow.ico"
+
+IDI_PROPERTIES          ICON                    "res\\properties.ico"
+
+IDI_CONDITION           ICON                    "res\\Condition.ico"
+
+IDI_CUBE                ICON                    "res\\Object.ico"
+
+IDI_FIELD               ICON                    "res\\field.ico"
+
+IDI_TREE                ICON                    "res\\tree.ico"
+
+IDI_EVENT               ICON                    "res\\event.ico"
+
+IDI_SAVE                ICON                    "res\\Save.ico"
+
+IDI_OPEN                ICON                    "res\\Open.ico"
+
+IDI_FIND                ICON                    "res\\Find.ico"
+
+IDI_FIND_NEXT           ICON                    "res\\Find-next.ico"
+
+IDI_FIND_PREV           ICON                    "res\\Find-prev.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 189, 81
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About WFP Explorer"
+FONT 9, "Segoe UI", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,69,60,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "Static",IDC_VERSION,56,12,97,8
+    LTEXT           "Static",IDC_COPYRIGHT,56,28,97,8
+END
+
+IDD_FILTERINFO DIALOGEX 0, 0, 417, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "General"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Key:",IDC_STATIC,7,15,16,8
+    EDITTEXT        IDC_KEY,51,13,248,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC,7,36,22,8
+    EDITTEXT        IDC_NAME,51,34,359,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Description:",IDC_STATIC,7,57,39,8
+    EDITTEXT        IDC_DESC,51,55,359,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Provider:",IDC_STATIC,7,97,30,8
+    EDITTEXT        IDC_PROVIDER,51,95,290,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Provider...",IDC_PROVIDER_PROP,347,95,63,14
+    LTEXT           "Layer:",IDC_STATIC,7,118,30,8
+    EDITTEXT        IDC_LAYER,51,116,290,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Layer...",IDC_LAYER_PROP,347,116,63,14
+    LTEXT           "Action:",IDC_STATIC,7,184,30,8
+    LTEXT           "Callout:",IDC_COFI,138,184,24,8
+    EDITTEXT        IDC_CALLOUT_OR_FILTER,167,182,176,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "ID:",IDC_STATIC,309,15,12,8
+    EDITTEXT        IDC_ID,327,13,70,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Weight:",IDC_STATIC,7,160,26,8
+    EDITTEXT        IDC_WEIGHT,51,159,117,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Effective Weight:",IDC_STATIC,182,161,57,8
+    EDITTEXT        IDC_EFFECTIVEWEIGHT,244,159,117,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Sublayer:",IDC_STATIC,7,139,32,8
+    EDITTEXT        IDC_SUBLAYER,51,137,290,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Sublayer...",IDC_SUBLAYER_PROP,347,137,63,14
+    EDITTEXT        IDC_ACTIONTYPE,51,182,81,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Flags:",IDC_STATIC,7,75,20,8
+    EDITTEXT        IDC_FLAGS,51,75,261,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Callout...",IDC_CALLOUT_PROP,347,180,63,14
+END
+
+IDD_FILTERCONDITIONS DIALOGEX 0, 0, 389, 254
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Conditions"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,375,162
+    EDITTEXT        IDC_VALUE,7,175,375,72,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | WS_VSCROLL,WS_EX_STATICEDGE
+END
+
+IDD_LAYERINFO DIALOGEX 0, 0, 421, 219
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    LTEXT           "Key:",IDC_STATIC,9,15,16,8
+    EDITTEXT        IDC_KEY,53,14,248,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC,9,36,22,8
+    EDITTEXT        IDC_NAME,53,34,359,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Description:",IDC_STATIC,9,57,39,8
+    EDITTEXT        IDC_DESC,53,55,359,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Flags:",IDC_STATIC,9,77,20,8
+    EDITTEXT        IDC_FLAGS,53,76,254,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "ID:",IDC_STATIC,311,15,12,8
+    EDITTEXT        IDC_ID,329,14,70,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Default Sublayer:",IDC_STATIC,7,97,57,8
+    PUSHBUTTON      "Sublayer...",IDC_SUBLAYER_PROP,350,95,60,14
+    LTEXT           "Fields:",IDC_STATIC,317,78,22,8
+    EDITTEXT        IDC_FIELDS,344,76,42,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_SUBLAYER,67,96,274,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Filters:",IDC_STATIC,7,118,23,8
+    EDITTEXT        IDC_FILTERS,43,116,42,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Callouts:",IDC_STATIC,106,118,29,8
+    EDITTEXT        IDC_CALLOUTS,142,116,42,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_LAYERFIELDS DIALOGEX 0, 0, 389, 254
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Fields"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,7,7,375,240
+END
+
+IDD_PROPSHEET DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,198,155,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,252,155,50,14
+    CONTROL         "",IDC_TABS,"SysTabControl32",0x0,7,7,295,142
+END
+
+IDD_NEWFILTER DIALOGEX 0, 0, 445, 267
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Filter"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,246,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,230,246,50,14
+    LTEXT           "Key:",IDC_STATIC,7,10,16,8
+    EDITTEXT        IDC_KEY,51,8,234,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC,7,31,22,8
+    EDITTEXT        IDC_NAME,51,29,359,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Description:",IDC_STATIC,7,52,39,8
+    EDITTEXT        IDC_DESC,51,50,359,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Generate",IDC_GENERATE,290,7,50,14
+    LTEXT           "Provider:",IDC_STATIC,7,76,30,8
+    COMBOBOX        IDC_PROVIDER,51,73,279,75,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Copy From...",IDC_COPYFROM,353,7,64,14
+END
+
+IDD_PROVIDER DIALOGEX 0, 0, 389, 184
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Provider"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,136,163,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,202,163,50,14
+    LTEXT           "Key:",IDC_STATIC,31,11,16,8
+    EDITTEXT        IDC_KEY,52,10,248,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC,25,31,22,8
+    EDITTEXT        IDC_NAME,52,30,327,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Description:",IDC_STATIC,8,52,39,8
+    EDITTEXT        IDC_DESC,52,51,327,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    CHECKBOX        "Persistent",IDC_PERSISTENT,274,73,48,10
+    CHECKBOX        "Disabled",IDC_DISABLED,339,73,43,10
+    LTEXT           "Service:",IDC_STATIC,20,73,27,8
+    EDITTEXT        IDC_SERVICENAME,52,72,162,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Provider Data:",IDC_DATASIZE,9,93,48,8
+    EDITTEXT        IDC_PROVIDERDATA,7,107,375,37,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_CALLOUT DIALOGEX 0, 0, 393, 205
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Callout"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,138,184,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,204,184,50,14
+    LTEXT           "Key:",IDC_STATIC,31,11,16,8
+    EDITTEXT        IDC_KEY,52,10,240,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC,25,31,22,8
+    EDITTEXT        IDC_NAME,52,30,327,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Description:",IDC_STATIC,8,52,39,8
+    EDITTEXT        IDC_DESC,52,51,327,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "ID:",IDC_STATIC,297,11,12,8
+    EDITTEXT        IDC_ID,314,9,65,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    CHECKBOX        "Persistent",IDC_PERSISTENT,55,72,48,10
+    CHECKBOX        "Provider Context",IDC_PROVIDER_CONTEXT,116,72,71,10
+    CHECKBOX        "Registered",IDC_REGISTERED,205,72,51,10
+    LTEXT           "Provider:",IDC_STATIC,16,91,30,8
+    EDITTEXT        IDC_PROVIDER,51,90,269,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Provider...",IDC_PROVIDER_PROP,327,88,59,14
+    LTEXT           "Layer:",IDC_STATIC,24,111,22,8
+    EDITTEXT        IDC_LAYER,51,110,269,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Layer...",IDC_LAYER_PROP,327,108,59,14
+    LTEXT           "Provider Data:",IDC_DATASIZE,9,128,48,8
+    EDITTEXT        IDC_PROVIDERDATA,7,140,375,30,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_FILTERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 410
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_FILTERCONDITIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_LAYERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 414
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_LAYERFIELDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_PROPSHEET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_NEWFILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 438
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_PROVIDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_CALLOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 386
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_DELETE,         VIRTKEY, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      ID_EDIT_PROPERTIES,     VIRTKEY, ALT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_VIEW_REFRESH,        VIRTKEY, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          ID_EDIT_FINDNEXT,       VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,5,3,0
+ PRODUCTVERSION 0,5,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Scorpio Software"
+            VALUE "FileDescription", "Windows Filtering Platform Explorer"
+            VALUE "FileVersion", "0.5.3.0"
+            VALUE "InternalName", "WFPExplorer"
+            VALUE "LegalCopyright", "©2022 Pavel Yosifovich"
+            VALUE "OriginalFilename", "WFPExplorer.exe"
+            VALUE "ProductName", "WFP Explorer"
+            VALUE "ProductVersion", "0.5.3.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FILTERINFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FILTERCONDITIONS AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 100,
+    0, 0, 100, 0
+END
+
+IDD_LAYERINFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_LAYERFIELDS AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 100
+END
+
+IDD_PROPSHEET AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_NEWFILTER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PROVIDER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CALLOUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Windows Filtering Platform Explorer"
+    IDS_TITLE               "WFP Explorer"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+    ID_VIEW_REFRESH         "\nRefresh"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCSIZE          "Change the window size"
+    ATL_IDS_SCMOVE          "Change the window position"
+    ATL_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    ATL_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    ATL_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    ATL_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    ATL_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCRESTORE       "Restore the window to normal size"
+    ATL_IDS_SCTASKLIST      "Activate Task List"
+    ATL_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_MRU_FILE        "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_OPTIONS_ALWAYSONTOP  "\nAlways On Top"
+    ID_VIEW_HIERARCHY       "\nHierarcy"
+    ID_VIEW_SESSIONS        "\nSessions"
+    ID_VIEW_FILTERS         "\nFilters"
+    ID_VIEW_LAYERS          "\nLayers"
+    ID_VIEW_CALLOUTS        "\nCallouts"
+    ID_VIEW_SUBLAYERS       "\nSublayers"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_PROVIDERS       "\nProviders"
+    ID_VIEW_PROVIDERCONTEXTS "\nProvider Contexts"
+    ID_VIEW_NETWORKEVENTS   "\nNetwork Events"
+    ID_NEW_FILTER           "\nNew Filter"
+    ID_EDIT_FINDNEXT        "\nFind Next"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

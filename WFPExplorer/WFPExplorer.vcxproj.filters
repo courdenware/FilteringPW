@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47a882f5-ca3c-4d7e-af44-3c04c10c4c0c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9eef3b9a-721e-4c57-9f1b-342dec98fd13}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{64214314-8c66-4f38-bd9b-92e0fc97a08f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Icons">
+      <UniqueIdentifier>{dd3ee917-d543-4f76-9565-2c62be172421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{badfa682-db92-4619-8c6c-b99b2a803286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{f00a7e40-bce0-4e4b-98eb-144534e3639f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PropertyPages">
+      <UniqueIdentifier>{194f6333-698f-4887-bc77-19bf2a1a09ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{f85ec35b-60c8-4884-9113-6b5cc6c848fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WFPExplorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionsView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="FiltersView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ProvidersView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="LayersView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="SublayersView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CalloutsView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ProviderContextView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterGeneralPage.cpp">
+      <Filter>PropertyPages</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterConditionsPage.cpp">
+      <Filter>PropertyPages</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerGeneralPage.cpp">
+      <Filter>PropertyPages</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerFieldsPage.cpp">
+      <Filter>PropertyPages</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="WFPHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEventsView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ProviderDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CalloutDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionsView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FiltersView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="ProvidersView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="LayersView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="SublayersView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CalloutsView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProviderContextView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterGeneralPage.h">
+      <Filter>PropertyPages</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterConditionsPage.h">
+      <Filter>PropertyPages</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerGeneralPage.h">
+      <Filter>PropertyPages</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerFieldsPage.h">
+      <Filter>PropertyPages</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="WFPHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEventsView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="ProviderDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericListViewBase.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CalloutDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WFPExplorer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\callback.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Copy.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Cut.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Delete.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Filter.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Session.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\WFPExplorer.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\engine.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\layers.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Paste.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\pin.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Refresh.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\sublayers.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\provider.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\filter-disabled.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\provider-persistent.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Session-synamic.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\context.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\FilteringRefresh.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Filteringrestricted.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\FilteringRightArrow.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\properties.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Object.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Condition.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\field.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\tree.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\event.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Open.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Save.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Find.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Find-next.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="res\Find-prev.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
